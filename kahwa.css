@@ -1,0 +1,75 @@
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(imgs/main-bg.jpg);
+    width: 100%;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-item .nav-link {
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    color: goldenrod;
+}
+
+.item-1:hover {
+    box-shadow: 8px 10px 0 black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item-1 {
+    box-shadow: 0 0 0 black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn {
+    box-shadow: 0 0 0 black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover {
+    box-shadow: 8px 10px 0 black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.banner-2 {
+    background: rgb(255, 238, 172);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.blackidk {
+    background: black;
+    color: white;
+    opacity: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-top: 50px;
+   }
+
+   .blackidk p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 50%;
+   }
+
+   .blackidk img {
+    height: 35px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    transform: translateY(15%);
+    cursor: pointer;
+}
