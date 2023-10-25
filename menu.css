@@ -18,19 +18,19 @@
 }
 
 .item-1:hover {
-    box-shadow: 8px 10px 0 black;
+    box-shadow: 8px 10px 0 rgb(23, 11, 0);
     transition: 0.5s;
     cursor: pointer;
 }
 
 .item-1 {
-    box-shadow: 0 0 0 black;
+    box-shadow: 0 0 0 rgb(23, 11, 0);
     transition: 0.5s;
     cursor: pointer;
 }
 
 .btn {
-    box-shadow: 0 0 0 black;
+    box-shadow: 0 0 0 rgb(23, 11, 0);
     transition: 0.5s;
     cursor: pointer;
 }
